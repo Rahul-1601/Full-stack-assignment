@@ -1,0 +1,16 @@
+import React, { Component } from 'react';
+
+class Substract extends Component {
+  constructor() {
+    super();
+    this.state = {
+      user: 'Chikshita',
+    };
+  }
+
+  render() {
+    return <p>{this.state.user}</p>;
+  }
+}
+
+export default Substract;
